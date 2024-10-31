@@ -2,11 +2,9 @@
   <img width="100%" height="60" src="public/jaas.svg" />
   <div><b>JSONResume as a Service</b></div>
   <div>
-    <small>
-      <a href="https://json-resume-service.vercel.app/">json-resume-service.vercel.app</a>
-    </small>
+    <sup><a href="https://json-resume-service.vercel.app/">json-resume-service.vercel.app</a></sup>
   </div>
-  <a href="#what">What</a> │ <a href="#why">Why</a> │ <a href="#how">How</a> │ <a href="#usage">Usage</a>
+  <a href="#what">What</a> · <a href="#why">Why</a> · <a href="#how">How</a> · <a href="#usage">Usage</a>
 </div>
 
 ---
@@ -15,13 +13,9 @@
   <table>
     <tr>
       <td>
-        <small>
-          <ul>
-            <li><a href="#development">Development</a></li>
-            <li><a href="#contributors">Contributors</a></li>
-            <li><a href="#license">License</a></li>
-          </ul>
-        </small>
+        <div>🔹<a href="#development"><sub><sup><b>Development</b></sup></sub></a></div>
+        <div>🔹<a href="#contributors"><sub><sup><b>Contributors</b></sup></sub></a></div>
+        <div>🔹<a href="#license"><sub><sup><b>License</b></sup></sub></a></div>
       </td>
       <td align="center" width="30%">
         <img height="24" width="24" src="public/icon.png" alt="icon" />
@@ -270,7 +264,7 @@ A basic example from _[jsonresume.org/schema](https://jsonresume.org/schema)_
     "startDate": "2011-01-01",
     "endDate": "2013-01-01",
     "score": "4.0",
-    "courses": [gg
+    "courses": [
       "DB1101 - Basic SQL"
     ]
   }],
