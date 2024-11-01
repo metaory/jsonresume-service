@@ -1,10 +1,11 @@
 <div align="center">
   <img width="100%" height="60" src="public/jaas.svg" />
-  <div><b>JSONResume as a Service</b></div>
-  <div>
-    <sup><a href="https://json-resume-service.vercel.app/">json-resume-service.vercel.app</a></sup>
-  </div>
-  <a href="#what">What</a> · <a href="#why">Why</a> · <a href="#how">How</a> · <a href="#usage">Usage</a>
+  <div><samp><b>JSONResume as a Service</b></samp></div>
+  <div><a href="https://json-resume-service.vercel.app/"><sup><samp>json-resume-service.vercel.app</samp></sup></a></div>
+    <a href="#what"><samp><b>What</b></samp></a>
+  ▪️<a href="#why"><samp><b>Why</b></samp></a>
+  ▪️<a href="#how"><samp><b>How</b></samp></a>
+  ▪️<a href="#usage"><samp><b>Usage</b></samp></a>
 </div>
 
 ---
@@ -13,9 +14,9 @@
   <table>
     <tr>
       <td>
-        <div>🔹<a href="#development"><sub><sup><b>Development</b></sup></sub></a></div>
+        <div>🔸<a href="#development"><sub><sup><b>Development</b></sup></sub></a></div>
         <div>🔹<a href="#contributors"><sub><sup><b>Contributors</b></sup></sub></a></div>
-        <div>🔹<a href="#license"><sub><sup><b>License</b></sup></sub></a></div>
+        <div>▫️<a href="#license"><sub><sup><b>License</b></sup></sub></a></div>
       </td>
       <td align="center" width="30%">
         <img height="24" width="24" src="public/icon.png" alt="icon" />
@@ -38,13 +39,13 @@
 
 ## What
 
-Serverless service to generate dynamic resumes from **remote GitHub gists**, 
+Serverless service to generate dynamic resumes from **remote GitHub gists**,
 
 compliant with;
-
-<small><a href="https://jsonresume.org/schema">JSONResume.org/schema</a></small>
-
-<sup><i><a href="https://json-schema.org">(JSON-Schema.org)</a></i></sup>
+<ul>
+  <li><a href="https://jsonresume.org/schema">JSONResume.org/schema</a></li>
+  <li><a href="https://json-schema.org">JSON-Schema.org</a></li>
+</ul>
 
 <details>
   <summary><b>JSONResume</b></summary>
@@ -64,7 +65,7 @@ compliant with;
   <li><a href="https://github.com/jsonresume/resume-schema">git:resume-schema</a></li>
 </ul>
 
-Checkout a [Basic example](#basic-example)
+Checkout [Basic example](#basic-example)
 
 </details>
 
@@ -109,13 +110,9 @@ Reads `resume.json` from one of the following methods:
 > `<username>`
 > <kbd>DrakeAxelrod</kbd>
 >
-> gist url
+> <sup><sub>[gist.github.com/DrakeAxelrod/33726f328fa7d66f781f6408aac9c20e](https://gist.github.com/DrakeAxelrod/33726f328fa7d66f781f6408aac9c20e)</sup></sub>
 >
-> ###### [gist.github.com/DrakeAxelrod/33726f328fa7d66f781f6408aac9c20e](https://gist.github.com/DrakeAxelrod/33726f328fa7d66f781f6408aac9c20e)
->
-> render
->
-> ###### [json-resume-service.vercel.app/user/drakeaxelrod](https://json-resume-service.vercel.app/user/drakeaxelrod)
+> <sup><sub>[json-resume-service.vercel.app/user/drakeaxelrod](https://json-resume-service.vercel.app/user/drakeaxelrod)</sup></sub>
 
 ---
 
@@ -130,7 +127,7 @@ Reads `resume.json` from one of the following methods:
 > [!CAUTION]
 > the user **MUST** have a compliant **JSON** file in given gist
 
-> [!NOTE]
+> [!TIP]
 >
 > the **first JSON** file in that gist will be attempted
 >
@@ -146,13 +143,9 @@ Reads `resume.json` from one of the following methods:
 > `<gist_id>`
 > <kbd>6776c2096963f1ca8ddb1817c8674b93</kbd>
 >
-> gist url
+> <sup><sub>[gist.github.com/metaory/6776c2096963f1ca8ddb1817c8674b93](https://gist.github.com/metaory/6776c2096963f1ca8ddb1817c8674b93)</sup></sub>
 >
-> ###### [gist.github.com/metaory/6776c2096963f1ca8ddb1817c8674b93](https://gist.github.com/metaory/6776c2096963f1ca8ddb1817c8674b93)
->
-> render
->
-> ###### [json-resume-service.vercel.app/gist/6776c2096963f1ca8ddb1817c8674b93](https://json-resume-service.vercel.app/gist/6776c2096963f1ca8ddb1817c8674b93)
+> <sup><sub>[json-resume-service.vercel.app/gist/6776c2096963f1ca8ddb1817c8674b93](https://json-resume-service.vercel.app/gist/6776c2096963f1ca8ddb1817c8674b93)</sup></sub>
 
 ---
 
@@ -345,3 +338,4 @@ Copyright © 2021-present [Drake Axelrod](https://github.com/drakeaxelrod)
 <div align="center">
   <img width="60%" src="public/foot.svg"/>
 </div>
+
